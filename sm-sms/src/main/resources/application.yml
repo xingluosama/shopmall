@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.114.131
+    username: shopmall
+    password: 123456
+    virtual-host: /shopmall
+  redis:
+    host: 192.168.114.131
+sm:
+  sms:
+    accessKeyId: LTAI4GJWpi1EnoR5Y2SR9oEt
+    accessKeySecret: d5X6aJslZMdkCfZPQl648gEBcqqNRW
+    signName: 购物商城
+    verifyCodeTemplate: SMS_198976814

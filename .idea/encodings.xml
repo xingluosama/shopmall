@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-auth/sm-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-auth/sm-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-item/sm-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-item/sm-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-page" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-user/sm-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sm-user/sm-user-service" charset="UTF-8" />
+  </component>
+</project>

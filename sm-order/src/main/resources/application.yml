@@ -1,0 +1,36 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/yun
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_null
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+mybatis:
+  type-aliases-package: com.shopmall.order.pojo
+sm:
+  jwt:
+    pubKeyPath: D:\\IdeaProjects\\tmp\\rsa\\id_rsa.pub # 公钥地址
+    cookieName: SM_TOKEN
+  worker:
+    workerId: 1
+    dataCenterId: 1
+  pay:
+    appId: wx38347y8667b597127
+    mchId: 1512794182
+    key: T6m9iK73b0kn235v426MKfHQH7X8rKwb
+    httpConnectTimeoutMs: 1000
+    httpReadTimeoutMs: 8000
+    notifyUrl: http://z6tzrd.natappfree.cc/notify/pay

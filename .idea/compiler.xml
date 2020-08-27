@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sm-auth-common" />
+        <module name="sm-auth-service" />
+        <module name="sm-cart" />
+        <module name="sm-common" />
+        <module name="sm-gateway" />
+        <module name="sm-item-interface" />
+        <module name="sm-item-service" />
+        <module name="sm-order" />
+        <module name="sm-page" />
+        <module name="sm-registry" />
+        <module name="sm-search" />
+        <module name="sm-sms" />
+        <module name="sm-upload" />
+        <module name="sm-user-interface" />
+        <module name="sm-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopmall" target="1.8" />
+      <module name="sm-auth" target="1.8" />
+      <module name="sm-auth-common" target="1.8" />
+      <module name="sm-auth-service" target="1.8" />
+      <module name="sm-cart" target="1.8" />
+      <module name="sm-common" target="1.8" />
+      <module name="sm-gateway" target="1.8" />
+      <module name="sm-item" target="1.8" />
+      <module name="sm-item-interface" target="1.8" />
+      <module name="sm-item-service" target="1.8" />
+      <module name="sm-order" target="1.8" />
+      <module name="sm-page" target="1.8" />
+      <module name="sm-registry" target="1.8" />
+      <module name="sm-search" target="1.8" />
+      <module name="sm-sms" target="1.8" />
+      <module name="sm-upload" target="1.8" />
+      <module name="sm-user" target="1.8" />
+      <module name="sm-user-interface" target="1.8" />
+      <module name="sm-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
